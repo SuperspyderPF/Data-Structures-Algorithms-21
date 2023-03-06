@@ -1,0 +1,1 @@
+findSmallestSetOfVertices = (n, z) => _.difference(_.range(n), _.map(z, 1))

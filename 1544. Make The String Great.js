@@ -1,0 +1,1 @@
+makeGood=(s,x=[])=>{for(i=0;i<s.length;i++){let l=s.charCodeAt(i);x.push(l);}for(i=0;i<x.length;i++){if(Math.abs(x[i]-x[i+1])===32){x.splice(i,2);i=-1}}for(i=0;i<x.length;i++){x[i]=String.fromCharCode(x[i])}return x.join("")}

@@ -1,0 +1,1 @@
+restoreString=(s,x)=>{v='';for(i=0;i<x.length;i++){v+=s[x.indexOf(i)];}return v}
